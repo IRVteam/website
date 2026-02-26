@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IRV | Immediate Response Volunteer Team</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111827;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #ef4444;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #f1f5f9;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #ef4444;
+    }
+
+    .hero {
+      height: 90vh;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url('logo.jpg') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero-content h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 12px 30px;
+      background: #ef4444;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #dc2626;
+    }
+
+    .section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #ef4444;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 8px;
+      width: 280px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #111827;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 768px){
+      .hero-content h2 {
+        font-size: 32px;
+      }
+
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>IRV</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Operations</a>
+      <a href="#">Team</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Immediate Response Volunteer Team</h2>
+      <p>website under construction</p>
+      <!-- <a href="#" class="btn">Request Support</a>-->
+    </div>
+  </section>
+
+  <section class="section">
+    <h3>Our Capabilities</h3>
+    <div class="services">
+      <div class="card">
+        <h4>Urban Search & Rescue</h4>
+        <p>Rapid deployment teams trained for structural collapse and disaster environments.</p>
+      </div>
+      <div class="card">
+        <h4>Swift Water Rescue</h4>
+        <p>Specialized teams equipped for flood and high-risk water operations.</p>
+      </div>
+      <div class="card">
+        <h4>Technical Rope Rescue</h4>
+        <p>High-angle rescue, confined space, and complex access operations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h3>About IRV</h3>
+    <p>
+      Immediate Response Volunteer Team (IRV) is a volunteer rescue unit committed to rapid response,
+      operational excellence, and saving lives in high-risk environments.
+      Our team operates with precision, discipline, and advanced technical capability.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 IRV – Immediate Response Volunteer Team | All Rights Reserved
+  </footer>
+
+</body>
+</html>
